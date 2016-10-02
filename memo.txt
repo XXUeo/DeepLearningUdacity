@@ -1,0 +1,28 @@
+
+
+MULTINOMIAL LOGISTIC CLASSIFICATION
+
+1. linear model to classify inputs.: logistic classifier(WX + b = y)
+
+2.softmax to transform scores to probability (x = np.exp(x)/np.sum(np.exp(x),axis = 0 or 1))  then u get scores between 0 and 1
+
+3. class entropy to classify either 0 or 1 (D(S= input,L) = -sum(L*log(S)))
+
+===========================================
+
+
+
+
+
+:note that we need to find the best setting for weight and bias to get the best outcome. find minimum. Loss = average cross - entropy
+gradient descent
+
+
+
+
+
+
+
+
+
+
